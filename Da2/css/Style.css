@@ -1,0 +1,56 @@
+body
+{
+    margin: auto;
+    text-align: center;
+    background:  #162020; 
+}
+h1
+{
+    font-family: 'Fredoka One', cursive;
+    font-size: 90px;
+    margin: 10px auto;
+    color: rgb(255, 255, 255);
+}
+.jugadoruno
+{
+    font-family: 'Fredoka One', cursive;
+    color: rgb(201, 238, 68);
+    display: inline-block;
+    margin-right: 70px;
+}
+.jugadordos
+{
+    font-family: 'Fredoka One', cursive;
+    color: rgb(201, 238, 68);
+    display: inline-block;
+    margin-left: 70px;
+}
+
+img
+{
+    width: 250px; height: 250px;
+}
+.myButton {
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Georgia;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px 38px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
